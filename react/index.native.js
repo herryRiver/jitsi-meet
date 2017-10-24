@@ -1,3 +1,7 @@
+// FIXME: remove once react-native-webrtc and react-native-prompt imports
+// PropTypes from the 'prop-types' lib instead of 'react'.
+import './features/base/react/prop-types-polyfill.js';
+
 import 'es6-symbol/implement';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
